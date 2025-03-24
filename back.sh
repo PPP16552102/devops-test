@@ -1,6 +1,6 @@
 #!/bin/bash
 WORK_PATH='/peter/projects/devops-backend'
-cd WORK_PATH
+cd $WORK_PATH
 echo "clear old code"
 git reset --hard origin/main
 git clean -f
