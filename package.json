@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node ./web-hook.js"
+    "start": "pm2 start ./web-hook.js --name webhook --watch",
+    "stop": "pm2 stop webhook"
   },
   "keywords": [],
   "author": "",
